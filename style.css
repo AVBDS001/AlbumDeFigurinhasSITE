@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: greenyellow;
+    background-image: repeating-linear-gradient(45deg, greenyellow 0px, greenyellow 10px, greenyellow 10px, yellow 10px, yellow 20px);
+    
+}
+
+.headerContainer {
+    background-color: greenyellow;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    list-style-type: none;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.navbar-item a {
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid white;
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: green;
+}
+
+.titleHeader {
+    text-align: center;
+    margin: 25px 10px;
+    color: blue;
+    font-size:  2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titleContainer {
+    background-image: linear-gradient(yellow, greenyellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 100%;
+}
+
+.containerFigurinhas {
+    margin-top: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+.figurinha {
+    margin: auto;
+    color: black;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.figurinha:hover {
+    cursor: pointer;
+}
+
+.figurinha img {
+    width: 200px;
+    height: 200px;
+}
